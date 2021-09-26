@@ -1,51 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <!--------- <title>Responsive Navigation Menu</title>------>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/home.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ciucacristi/elementric/Elementric/css/elementric.css"> -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/fullpage.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Oxanium&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Oxanium&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="home.css">
-    <!-- <link rel="stylesheet" href="theme.css"> -->
-    <title>Document</title>
 </head>
+
 <body>
-    <header>
-        <div class="navbar">
-            <div class="navbar-brand"><a href=""><img src="./img/SOURCE [Converted].png"></a></div>
-            <ul class="nav-links">
-                
-                <li class="hvr-grow-rotate"><a href="index.html">HOME</a></li>
-                <li class="hvr-grow-rotate"><a href="about.html">ABOUT</a></li>
-                <li class="hvr-grow-rotate"><a href="contact.html">CONTACT</a></li>
-                <li class="hvr-grow-rotate"><a href="blog.html">BLOG</a>
-                <li class="hvr-grow-rotate"><a href="blog.html">FORUM</a>
-            </ul>
+    <div id="fullpage">
+        <div class="section">
+            <header>
+                <nav>
+                    <div class="logo">Brand</div>
+                    <input type="checkbox" id="click">
+                    <label for="click" class="menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                    <ul>
+                        <li><a class="active" href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">FORUM</a></li>
+                    </ul>
+                </nav>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-12 landing-text">
+                            <h1>ELEMENTRIX</h1>
+                            <h3>A Multisensory Forum Experience</h3>
+                            <div class="d-flex">
+                                <button>Hello</button>
+                                <button>Hello again</button>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-sm-12 landing-image">
+                            <img src="./img/laptop-cover.png" class="mx-auto d-inline" id="laptop-image" alt="...">
+                            <img src="./img/controller-cover.png" class=" d-inline" id="controller-image" alt="...">
+                        </div>
+                    </div>
+
+                </div>
+            </header>
         </div>
-        <div class="landing-cover">
-            <div class="landing-text-content">
-                <h5>WELCOME TO <span style="color: #e4a101">SYMPOSIUM</span></h5>
-                <h2>ONE-STOP<span style="color: #e4a101"> FORUM</span></h2>
-                <button class="hvr-sweep-to-right landing-buttons" href="">Contact Us</button>
-                <button class="hvr-sweep-to-right landing-buttons">Start a Thread!</button>
-            </div>
+        <div class="section">
 
         </div>
-    </header>    
-    <main>
-        <section class="services">
-            <div class="services-text">
-                <h3>SERVICES WE OFFER</h3>
-            </div>
-            <div class="services-text">
+    </div>
 
-            </div>
-        </section>
-    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/fullpage.js"></script>
+    <script type="text/javascript" src="js/fullpage.js"></script>
+    <script>
+
+        new fullpage('#fullpage', {
+                //options here
+                autoScrolling: true,
+                scrollHorizontally: true
+            });
+
+    </script>
 </body>
+
 </html>
