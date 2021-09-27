@@ -157,10 +157,10 @@ input[type="checkbox"] {
     line-height: 32px;
     color:cyan;
     letter-spacing: 0.65px;
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
     position: relative;
-    min-height: 350px;
+    min-height: 400px;
     padding-top: 150px;
     line-height: 32px;
     box-sizing: border-box;
@@ -176,6 +176,32 @@ input[type="checkbox"] {
 }
 *, ::after, ::before {
     box-sizing: border-box;
+}
+
+.commonSection {
+    /* padding: 120px 0; */
+    position: relative;
+    line-height: 32px;
+    color: cyan;
+    letter-spacing: 0.64px;
+    font-size: 16px;  
+    background: url()
+    
+}
+.agency_img1 {
+    position: relative;
+    text-align: right;
+}
+.sub_title{
+    
+    font-size: 70px;
+    line-height: .8;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+    padding-left: 100px;
 }
 
 
