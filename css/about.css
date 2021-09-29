@@ -150,59 +150,96 @@ input[type="checkbox"] {
     z-index: -1;
 }
 
-.pageBanner {
-    position: relative;
+.page_title {
     /* background: url(/Gaming_UI/img/Untitled\ design.png) no-repeat center center / cover; */
-    background-size: 1200px;
-    line-height: 32px;
+    background-size: 1200px;    
     color:cyan;
     letter-spacing: 0.65px;
-    font-size: 70px;
+    font-size: 60px;
     text-align: center;
     position: relative;
-    min-height: 400px;
-    padding-top: 150px;
-    line-height: 32px;
+    min-height: 320px;
+    padding-top: 130px;
+    line-height: 10px;
     box-sizing: border-box;
     display: block;
-    font-weight: 400
+    
 }
-.brand.bg{
+
+/* .brand.bg{
     background-image: url(img/Transparent.png);
     background-position: center;
     background-size: cover;
     padding: 60px 0;
     position: relative;
-}
-*, ::after, ::before {
-    box-sizing: border-box;
-}
+} */
 
-.commonSection {
+
+.gtk h1 {
     /* padding: 120px 0; */
     position: relative;
     line-height: 32px;
     color: cyan;
-    letter-spacing: 0.64px;
-    font-size: 16px;  
-    
-    background-image: linear-gradient(#1B1B2F,#e43f5a);
-    
-}
-.agency_img1 {
-    position: relative;
-    text-align: right;
-}
-.sub_title{
-    
-    font-size: 70px;
-    line-height: .8;
-    font-weight: 400;
+    letter-spacing: 0.64px;    
+    font-weight: 100px; 
+    width: 550px;
+    padding-left: 90px;
+    font-size: 50px;    
+    font-weight: 900;
     color: white;
     letter-spacing: 1.2px;
     text-transform: uppercase;
-    margin: 0 0 5px;
-    padding-left: 100px;
+    left: 100px;
+      
 }
+.para{
+    margin-top: 20px;
+    line-height: 32px;
+    color: cyan;
+    letter-spacing: 0.64px; 
+    font-size: 25px;
+    bottom: 1000px;
+    /* width: 600px;
+    left: 100px; */
+
+}
+
+/* .content{
+    background-image: linear-gradient(#1B1B2F,#e43f5a);
+    top: 10px;
+} */
+
+.content img{
+    text-align: right;
+    /* size: 10px; */
+    height: 350px;  
+    position: relative;    
+    left: 1000px;
+    bottom: 80px;
+      
+    /* width: px; */
+}
+
+/* .agency_img2 {
+    position: relative;
+    text-align: right;
+    
+   
+} */
+
+
+/* .sub_title{
+    
+    font-size: 50px;
+    line-height: .8;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 1.2px;
+    text-transform: uppercase; */
+    /* margin: 0 0 5px; */
+    
+    /* padding-left: 80px; */
+    
+/* } */
 
 
