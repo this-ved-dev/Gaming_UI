@@ -35,7 +35,7 @@ nav .logo {
 nav ul {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     list-style: none;
 }
 
@@ -60,6 +60,10 @@ nav ul li a:hover {
     background: #fff;
     transition: ease 1s;
 }
+.select{
+    background: #fff;
+    color: #111;
+}
 
 nav .menu-btn i {
     color: #fff;
@@ -72,13 +76,13 @@ input[type="checkbox"] {
     display: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1047px) {
     nav {
         padding: 0 40px 0 50px;
     }
 }
 
-@media (max-width: 920px) {
+@media (max-width: 990px) {
     nav .menu-btn i {
         display: block;
     }
@@ -207,10 +211,20 @@ input[type="checkbox"] {
     outline: none;
     border: none;
     margin: 0 10px;
-    height: 50px;
-    width:150px;
+    height: 45px;
+    width: 150px;
+    min-width: 100px;
+    font-size: 13px;
     color: white;
+    padding:5px;
     border-radius: 8px;
-    background: linear-gradient(315deg, #18182a, #1d1d32);
-    box-shadow: -5px -5px 10px #0b0b13,
-    5px 5px 10px #2b2b4b;
+    background: linear-gradient(145deg, #f44360, #cd3951);
+    box-shadow: 3px 3px 1px #5b1924,
+    -3px -2px 6px #000;
+}
+
+.cta-buttons button:hover{
+    border-radius: 26px;
+    transition: ease-in-out 0.5s;
+}
+
