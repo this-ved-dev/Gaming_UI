@@ -68,21 +68,43 @@
             </header>
         </div>
         <div class="section section2">
-            <div class="container-fluid">
-                <div class="row w-100">
-                    <div class="card col-md-4">
-
-                    </div>
-                    <div class="card col-md-4">
-                    
-                    </div>
-                    <div class="card col-md-4">
-                    
+            <div class="container">
+                <div class="row">
+                    <div class="col service-header">
+                        <h3>SERVICES WE ARE OFFEREING</h3>
+                        <h1>WE ENABLE A PLATFORM THAT HELPS GAMERS UNITE.</h1>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-md-3 card">
+                        <div class="icon">
+                            <i class="fas fa-blog"></i>
+                        </div>
+                        <h2>BLOG</h2>
+                        <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h5>
 
+                    </div>
+                    <div class="col-md-3 card">
+                        <div class="icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h2>CONNECTION</h2>
+                        <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h5>
+
+
+                    </div>
+                    <div class="col-md-3 card">
+                        <div class="icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h2>ANNOUNCEMENTS</h2>
+                        <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h5>
+
+
+                    </div>
+                </div>
             </div>
-            
+
 
 
         </div>
@@ -103,25 +125,25 @@
     <script type="text/javascript" src="./js/fullpage.js"></script>
     <script>
         $(document).ready(function () {
-                $('#fullpage').fullpage({
-                    autoScrolling: true,
-                    navigation: true,
-                    navigationTooltips: ['HOME', 'SERVICES', 'STATISTICS','NEWS','FORUM'],
-                    showActiveTooltip: true,
-                    showActiveTooltip: true,
-                    scrollingSpeed: 1000,
-                    slidesNavigation: true,
-                    
-                    loopBottom: true,
-                    loopTop: true,
-                    verticalCentered: true,
-                });
+            $('#fullpage').fullpage({
+                autoScrolling: true,
+                navigation: true,
+                navigationTooltips: ['HOME', 'SERVICES', 'STATISTICS', 'NEWS', 'FORUM'],
+                showActiveTooltip: true,
+                showActiveTooltip: true,
+                scrollingSpeed: 1000,
+                slidesNavigation: true,
 
-                //methods
-                $.fn.fullpage.setAllowScrolling(true);
+                loopBottom: true,
+                loopTop: true,
+                verticalCentered: true,
             });
 
-     
+            //methods
+            $.fn.fullpage.setAllowScrolling(true);
+        });
+
+
 
     </script>
 </body>
