@@ -197,8 +197,11 @@ input[type="checkbox"] {
     line-height: 32px;
     color: cyan;
     letter-spacing: 0.64px; 
-    font-size: 25px;
+    font-size: 20px;
     bottom: 1000px;
+    width: 750px;
+    padding-left: 190px;
+    font-weight: 500;
     /* width: 600px;
     left: 100px; */
 
@@ -215,7 +218,7 @@ input[type="checkbox"] {
     height: 350px;  
     position: relative;    
     left: 1000px;
-    bottom: 80px;
+    bottom: 275px;
       
     /* width: px; */
 }
