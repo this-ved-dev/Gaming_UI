@@ -15,13 +15,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ciucacristi/elementric/Elementric/css/elementric.css"> -->
     <!-- CSS -->
-    <!-- <link rel="stylesheet" href="./css/fullpage.css"> -->
+    <link rel="stylesheet" href="./css/fullpage.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
     <div id="fullpage">
-        <div class="section section1">
+        <div class="section section1" id="section1">
             <header>
                 <nav>
                     <div class="logo"><a href=""><img src="./img/LOGO.png"></a></div>
@@ -67,11 +67,51 @@
                 </div>
             </header>
         </div>
-        <div class="section section-2">
+        <div class="section section2">
+            <div class="container">
+                <div class="logo-service">
+                    <img height="80px" style="padding: 10px;" src="img/LOGO.png">
+                </div>
+                <div class="row">
+                    <div class="col service-header">
+                        <h3>SERVICES WE ARE OFFEREING</h3>
+                        <h1>WE ENABLE A PLATFORM THAT HELPS GAMERS UNITE.</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-8 card">
+                        <div class="icon">
+                            <i class="fas fa-blog"></i>
+                        </div>
+                        <h2>FORUMS</h2>
+                        <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h5>
+
+                    </div>
+                    <div class="col-md-3 col-8 card">
+                        <div class="icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <h2>SCRIMS</h2>
+                        <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h5>
+
+
+                    </div>
+                    <div class="col-md-3 col-8 card">
+                        <div class="icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h2>ANNOUNCEMENTS</h2>
+                        <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h5>
+
+
+                    </div>
+                </div>
+            </div>
+
 
 
         </div>
-        <div class="section">
+        <div class="section section3">
 
         </div>
     </div>
@@ -86,14 +126,30 @@
         integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="./js/fullpage.js"></script>
-    <script type="text/javascript" src="js/fullpage.js"></script>
     <script>
+        $(document).ready(function () {
+            $('#fullpage').fullpage({
+                autoScrolling: true,
+                navigation: true,
+                navigationTooltips: ['HOME', 'SERVICES', 'STATISTICS', 'NEWS', 'FORUM'],
+                showActiveTooltip: true,
+                showActiveTooltip: true,
+                scrollingSpeed: 1000,
+                slidesNavigation: true,
+                responsiveWidth: 1,
+                responsiveHeight: 0,
+                responsiveSlides: true,
 
-        new fullpage('#fullpage', {
-            //options here
-            autoScrolling: true,
-            scrollHorizontally: true,
+                loopBottom: true,
+                loopTop: true,
+                verticalCentered: true,
+            });
+
+            //methods
+            $.fn.fullpage.setAllowScrolling(true);
         });
+
+
 
     </script>
 </body>
