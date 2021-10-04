@@ -72,6 +72,10 @@ nav .menu-btn i {
     display: none;
 }
 
+#fp-nav ul li a span {
+    background: white !important;
+}
+
 input[type="checkbox"] {
     display: none;
 }
@@ -181,32 +185,6 @@ input[type="checkbox"] {
     border: 6px white dotted;
 }
 
-@media (max-width: 920px) {
-    .landing-image {
-        text-align: center;
-    }
-
-    #laptop-image {
-        left: 30px;
-    }
-
-    #controller-image {
-        left: -30px;
-    }
-
-}
-
-@media(max-width: 780px) {
-    #laptop-image {
-        left: 30px;
-        width: 200px;
-    }
-
-    #controller-image {
-        left: -30px;
-        width: 150px;
-    }
-}
 
 .cta-buttons button {
     outline: none;
@@ -255,8 +233,8 @@ input[type="checkbox"] {
     background-attachment: scroll;
 }
 
-.section2{
-    background-image: url(../img/blob-scene-haikei.svg);
+.section2 {
+    background-image: url(../img/layered-mirror.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -264,59 +242,111 @@ input[type="checkbox"] {
 
 }
 
-.section2 .fp-tableCell{
+.section2 .fp-tableCell {
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
 }
 
-.service-header{
+.container {
+    min-height: 80%;
+    border-radius: 20px;
+    background: #001220;
+    box-shadow: inset -7px 7px 12px #00070d,
+        inset 7px -7px 12px #001d33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.service-header {
     text-align: center;
     margin-bottom: 10px;
 }
-.service-header h3{
+
+.service-header h3 {
     color: #e43f5a;
 }
-.service-header h1{
+
+.service-header h1 {
     color: white;
 }
+
 .card {
     /* height: 100px; */
     border-radius: 10px;
     background: #001220;
-    box-shadow: -5px 5px 18px #00070d,
-    5px -5px 18px #001d33;
+    background: linear-gradient(225deg, #001322, #00101d);
+    box-shadow: -7px 7px 15px #00070d,
+        7px -7px 15px #001d33;
     margin: 20px auto;
     padding: 20px 0;
+    transition: all 1s ease-in-out;
 
 }
 
-.card:hover{
+.card:hover {
     background: #001220;
-    box-shadow: -5px 5px 8px #00070d,
-    5px -5px 8px #001d33;
+    box-shadow: -5px 5px 5px #00070d,
+        5px -5px 5px #001d33,
+        0 0 50px #ff4868;
+        transition: all 1s ease-in-out;
 }
 
-.card .icon{
+.card .icon {
     padding: 10px;
     margin: 5px auto;
-    height:50px;
-    width:50px;
-    /* border: 1px solid black; */
-    border-radius:50%;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 2px solid #7ed4dd;
     color: white;
     background: #001220;
     box-shadow: 6px 6px 18px #000910,
-    -6px -6px 18px #001b30;
+        -6px -6px 18px #001b30;
 }
-.card h2{
+
+.card h2 {
     color: white;
 }
 
-.card h5{
+.card h5 {
     color: #ffca22;
     font-size: 15px;
     font-family: Poppins, Sans-serif;
     padding: 10px 5px;
+}
+
+@media only screen and (max-width: 767px) {
+    .service-header h3 {
+        font-size: 20px;
+    }
+
+    .service-header h1 {
+        font-size: 25px;
+    }
+
+    .card {
+        margin: 10px auto;
+        padding: 5px 0;
+    }
+
+    .card h2 {
+        font-size: 20px;
+    }
+
+    .card h5 {
+        color: #ffca22;
+        font-size: 10px;
+        font-family: Poppins, Sans-serif;
+        padding: 8px 3px;
+    }
+
+    .logo-service img {
+        height: 50px;
+    }
+
 }
