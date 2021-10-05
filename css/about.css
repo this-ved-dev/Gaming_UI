@@ -271,9 +271,9 @@ input[type="checkbox"] {
     transition: all 1s ease-in-out;
 
 }
-.photo{
+/* .photo{ */
     /* box-shadow: 6px 6px 12px #b8b9be,-6px -6px 12px #fff!important; */
-}
+/* } */
 
 /* .card .icon {
     padding: 10px;
