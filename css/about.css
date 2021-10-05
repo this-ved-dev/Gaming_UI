@@ -1,23 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
+@font-face {
+    font-family: "Futura";
+    src: url("../fonts/Futura/futura\ medium\ bt.ttf");
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins, sans-serif;
 }
-body{
-    background-color: #1B1B2F;
+
+body {
+    background-color: #001220;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 nav {
     display: flex;
-    height: 80px;
+    height: 90px;
     width: 100%;
     background: rgb(255, 255, 255, 0);
-    
+
     align-items: center;
     justify-content: space-between;
     padding: 0 50px 0 100px;
@@ -25,16 +29,14 @@ nav {
     position: sticky;
 }
 
-nav .logo {
-    color: #fff;
-    font-size: 35px;
-    font-weight: 600;
+nav .logo a img {
+    height: 50px;
 }
 
 nav ul {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     list-style: none;
 }
 
@@ -44,7 +46,7 @@ nav ul li {
 
 nav ul li a {
     color: #f2f2f2;
-    text-decoration: none;
+
     font-size: 20px;
     font-weight: 500;
     padding: 8px 15px;
@@ -55,7 +57,14 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #111;
+    text-decoration: none;
     background: #fff;
+    transition: ease 1s;
+}
+
+.select {
+    background: #fff;
+    color: #111;
 }
 
 nav .menu-btn i {
@@ -65,17 +74,21 @@ nav .menu-btn i {
     display: none;
 }
 
+#fp-nav ul li a span {
+    background: white !important;
+}
+
 input[type="checkbox"] {
     display: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1047px) {
     nav {
         padding: 0 40px 0 50px;
     }
 }
 
-@media (max-width: 920px) {
+@media (max-width: 990px) {
     nav .menu-btn i {
         display: block;
     }
@@ -124,57 +137,33 @@ input[type="checkbox"] {
     }
 }
 
-/* .content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    z-index: -1;
-    width: 100%;
-    padding: 0 30px;
-    color: #1b1b1b;
-}
-
-.content div {
-    font-size: 40px;
-    font-weight: 700;
-} */
-
-
-#controller-image{
-    width: 22vw;
-    position: relative;
-    left: -150px;
-    transform:rotate(15deg);
-    z-index: -1;
+.section1 {
+    /* background-image: url(../img/layered-waves-haikei.svg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
 }
 
 .page_title {
     /* background: url(/Gaming_UI/img/Untitled\ design.png) no-repeat center center / cover; */
-    background-size: 1200px;    
-    color:cyan;
+    background-size: 900px;    
+    color: rgb(228, 63, 90);
     letter-spacing: 0.65px;
-    font-size: 60px;
     text-align: center;
     position: relative;
-    min-height: 320px;
-    padding-top: 130px;
-    line-height: 10px;
+    min-height: 250px;
+    padding-top: 80px;
+    line-height: 5px;
     box-sizing: border-box;
     display: block;
     
 }
-
-/* .brand.bg{
-    background-image: url(img/Transparent.png);
-    background-position: center;
-    background-size: cover;
-    padding: 60px 0;
-    position: relative;
-} */
-
-
+.page_title h2{
+    font-size: 100px;
+    line-height: 50px;
+    font-weight: 600;
+}
 .gtk h1 {
     /* padding: 120px 0; */
     position: relative;
@@ -185,12 +174,22 @@ input[type="checkbox"] {
     width: 550px;
     padding-left: 90px;
     font-size: 50px;    
-    font-weight: 900;
+    font-weight: 400;
     color: white;
     letter-spacing: 1.2px;
     text-transform: uppercase;
     left: 100px;
       
+}
+.gtk img{
+    text-align: right;
+    /* size: 10px; */
+    height: 350px;  
+    position: relative;    
+    left: 1000px;
+    bottom: 300px;
+      
+    /* width: px; */
 }
 .para{
     margin-top: 20px;
@@ -201,48 +200,103 @@ input[type="checkbox"] {
     bottom: 1000px;
     width: 750px;
     padding-left: 190px;
-    font-weight: 500;
+    font-weight: 600;
+    padding-top: 40px;
     /* width: 600px;
     left: 100px; */
 
 }
+.our-team{
+    color: white;
+}        
+.rounded-circle {
+    border-radius: 50%!important;
+}
+.container{
+    min-height: 80%;
+    /* width: 100%; */
+    border-radius: 20px;
+    background: #001220;
+    box-shadow: inset -7px 7px 12px #00070d,
+        inset 7px -7px 12px #001d33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section2 {
+    /* background-image: url(../img/layered-mirror.svg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
 
-/* .content{
-    background-image: linear-gradient(#1B1B2F,#e43f5a);
-    top: 10px;
-} */
-
-.content img{
-    text-align: right;
-    /* size: 10px; */
-    height: 350px;  
-    position: relative;    
-    left: 1000px;
-    bottom: 275px;
-      
-    /* width: px; */
 }
 
-/* .agency_img2 {
-    position: relative;
-    text-align: right;
-    
-   
+.section2 .fp-tableCell {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* .container {
+    min-height: 80%;
+    border-radius: 20px;
+    background: #001220;
+    box-shadow: inset -7px 7px 12px #00070d,
+        inset 7px -7px 12px #001d33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 } */
 
+.card {
+    /* height: 100px; */
+    border-radius: 10px;
+    background: #fff;
+    background: linear-gradient(225deg, #001322, #00101d);
+    box-shadow: -7px 7px 15px #00070d,
+        7px -7px 15px #001d33;
+    margin: 20px auto;
+    padding: 20px 0;
+    transition: all 1s ease-in-out;
 
-/* .sub_title{
-    
-    font-size: 50px;
-    line-height: .8;
-    font-weight: 900;
+}
+
+/* .card:hover {
+    background: #001220;
+    box-shadow: -5px 5px 5px #00070d,
+        5px -5px 5px #001d33,
+        0 0 50px #ff4868;
+        transition: all 1s ease-in-out;
+} */
+
+.card .icon {
+    padding: 10px;
+    margin: 5px auto;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 2px solid #7ed4dd;
     color: white;
-    letter-spacing: 1.2px;
-    text-transform: uppercase; */
-    /* margin: 0 0 5px; */
-    
-    /* padding-left: 80px; */
-    
-/* } */
+    background: #001220;
+    box-shadow: 6px 6px 18px #000910,
+        -6px -6px 18px #001b30;
+}
+
+.card h2 {
+    color: white;
+    font-size: 25px;
+}
+
+.card h5 {
+    color: #e43f5a;
+    font-size: 15px;
+    font-family: Poppins, Sans-serif;
+    padding: 10px 5px;
+}
 
 

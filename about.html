@@ -1,336 +1,196 @@
 <!DOCTYPE html>
-
+<!-- Created By CodingLab - www.codinglabweb.com -->
 <html lang="en" dir="ltr">
 
 <head>
     <meta charset="utf-8">
+    <!--------- <title>Responsive Navigation Menu</title>------>
 
-    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ciucacristi/elementric/Elementric/css/elementric.css">
-    <title>About-Us</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ciucacristi/elementric/Elementric/css/elementric.css"> -->
+    <!-- CSS -->
     <link rel="stylesheet" href="./css/fullpage.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
     <div id="fullpage">
-        <div class="section">
+        <div class="section section1" id="section1">
             <header>
                 <nav>
-                    <div class="logo">Brand</div>
+                    <div class="logo"><a href=""><img src="./img/LOGO.png"></a></div>
                     <input type="checkbox" id="click">
                     <label for="click" class="menu-btn">
                         <i class="fas fa-bars"></i>
                     </label>
                     <ul>
-                        <li><a class="active" href="#">HOME</a></li>
+                        <li><a href="#">HOME</a></li>
                         <li><a href="#">ABOUT</a></li>
                         <li><a href="contact-us.html">CONTACT US</a></li>
-                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">ANNOUNCEMENTS</a></li>
                         <li><a href="#">FORUM</a></li>
+                        <li><a class="select" href="#"><i class="fas fa-power-off"></i></a></li>
                     </ul>
                 </nav>
+
             </header>
 
-            <!-- <div class="content">
-        <div>Responsive Navigation Menu Bar Design</div>
-        <div>using only HTML & CSS</div>
-    </div> -->
-            <!-- <div class="landing-cover">
-        <div class="landing-text">
-            <h3>Welcome to</h3>
-            <h1>ELEMENTRIX</h1>
-            <p>A Multisensory Discussion Experience</p> -->
-            <!-- <button type="button" class="button-light">Go to Forum</button> -->
 
-            <!-- </div>
-        <div class="landing-image">
-            <img id="laptop-image" src="./img/laptop-cover.png">
-            <img id="controller-image" src="./img/controller-cover.png">
-        </div>
-    </div> -->
-            <!-- <section class="commonSection">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-sm-6 col-md-6">
-                    <h4 class="sub_title">get to know us</h4>
-                    <h2 class="sec_title">build better website alot quicker with meipaly agency</h2>
+            <section>
+                <div class="page_title">
+                    <h2>About-Us</h2>
                 </div>
-                <div class="col-lg-6 col-sm-6 col-md-6">
-                    <div class="agency_img1">
-                        <img src="images/about/1.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-12 col-sm-12">
-                    <div class="agency_img2">
-                        <img src="images/about/2.jpg" alt="">
-                    </div>
-                    <div class="compay_date">
-                        <h5>company started</h5>
-                        <h2>1990</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-            <section class="page_title">
-                <h2>About-Us</h2>
-            </section>
-
-
-            <div class="content">
-                <section class="gtk">
-                    <h1 class="sub_title">get to know us</h1>
-                    <h2 class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quia facere pariatur
+                <div class="gtk">
+                    <h1>Our Mission</h1>
+                    <h2 class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quia facere
+                        pariatur
                         deserunt quaerat, blanditiis at harum aliquam perspiciatis excepturi incidunt, et reiciendis
                         minima obcaecati odio hic fugit rerum? Sapiente.</h2>
                     <img src="img/controller-cover.png" alt="">
-                </section>
-
-                <!-- </div>
-                        <div class="col-lg-6 col-sm-6 col-md-6">
-                            <div class="agency_img1">
-                                <img src="img/gamers_circle_shape.png" alt="">
-                            </div>
-                        </div> -->
-
-
-
-
-            </div>
-
-            <!-- <div class="compay_date">
-                                <h5>company started</h5>
-                                <h2>1990</h2>
-                            </div> -->
-
-
-
-
-
-
-            <!-- <div class="brand-area brand-bg">
-                <div class="container">
-                    <div class="row brand-active slick-initialized slick-slider">
-
-                        <div class="slick-list draggable">
-                            <div class="slick-track"
-                                style="opacity: 1; width: 2656px; transform: translate3d(-830px, 0px, 0px); transition: transform 1000ms ease 0s;">
-                                <div class="col-xl-2 slick-slide slick-cloned" style="width: 166px;" tabindex="-1"
-                                    data-slick-index="-2">
-                                    <div class="brand-item">
-                                        <img src="img/brand/brand_logo06.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-xl-2 slick-slide slick-cloned" style="width: 166px;" tabindex="-1"
-                                    data-slick-index="-1" aria-hidden="true">
-                                    <div class="brand-item">
-                                        <img src="img/brand/brand_logo03.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-xl-2 slick-slide" style="width: 166px;" tabindex="-1"
-                                    data-slick-index="0" >
-                                    <div class="brand-item">
-                                        <img src="img/brand/brand_logo01.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-xl-2 slick-slide" style="width: 166px;" tabindex="-1"
-                                    data-slick-index="1" aria-hidden="true">
-                                    <div class="brand-item">
-                                        <img src="img/brand/brand_logo02.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-xl-2 slick-slide" style="width: 166px;" tabindex="0"
-                                    data-slick-index="2" aria-hidden="true">
-                                    <div class="brand-item">
-                                        <img src="img/brand/brand_logo03.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-xl-2 slick-slide slick-current slick-active" style="width: 166px;"
-                                    tabindex="0" data-slick-index="3" aria-hidden="false">
-                                    <div class="brand-item">
-                                        <img src="img/brand/brand_logo04.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-xl-2 slick-slide slick-active" style="width: 166px;" tabindex="-1"
-                                    data-slick-index="4" aria-hidden="false">
-                                    <div class="brand-item">
-                                        <img src="img/brand/brand_logo05.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-xl-2 slick-slide" style="width: 166px;" tabindex="-1"
-                                    data-slick-index="5" aria-hidden="true">
-                                    <div class="brand-item">
-                                        <img src="img/brand/brand_logo06.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-xl-2 slick-slide" style="width: 166px;" tabindex="-1"
-                                    data-slick-index="6" aria-hidden="true">
-                                    <div class="brand-item">
-                                        <img src="img/brand/brand_logo03.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-xl-2 slick-slide slick-cloned" style="width: 166px;" tabindex="-1"
-                                    data-slick-index="7" aria-hidden="true">
-                                    <div class="brand-item">
-                                        <img src="img/brand/brand_logo01.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-xl-2 slick-slide slick-cloned" style="width: 166px;" tabindex="-1"
-                                    data-slick-index="8" aria-hidden="true">
-                                    <div class="brand-item">
-                                        <img src="img/brand/brand_logo02.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-xl-2 slick-slide slick-cloned" style="width: 166px;" tabindex="-1"
-                                    data-slick-index="9" aria-hidden="true">
-                                    <div class="brand-item">
-                                        <img src="img/brand/brand_logo03.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-xl-2 slick-slide slick-cloned" style="width: 166px;" tabindex="-1"
-                                    data-slick-index="10" aria-hidden="true">
-                                    <div class="brand-item">
-                                        <img src="img/brand/brand_logo04.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-xl-2 slick-slide slick-cloned" style="width: 166px;" tabindex="-1"
-                                    data-slick-index="11" aria-hidden="true">
-                                    <div class="brand-item">
-                                        <img src="img/brand/brand_logo05.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-xl-2 slick-slide slick-cloned" style="width: 166px;" tabindex="-1"
-                                    data-slick-index="12" aria-hidden="true">
-                                    <div class="brand-item">
-                                        <img src="img/brand/brand_logo06.png" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-xl-2 slick-slide slick-cloned" style="width: 166px;" tabindex="-1"
-                                    data-slick-index="13" aria-hidden="true">
-                                    <div class="brand-item">
-                                        <img src="img/brand/brand_logo03.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-
-        </div>
-
-        <div class="section">
-            <section class="team-member-area pt-115 pb-125">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-xl-6 col-lg-8">
-                            <div class="section-title title-style-three text-center mb-70">
-                                <h2>Our team <span>member</span></h2>
-                                <p>Compete with 100 players on a remote island for winner takes showdown
-                                    known issue where certain skin strategic</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="team-member-box text-center mb-50">
-                                <div class="team-member-thumb">
-                                    <img src="img/team/team_member01.jpg" alt="">
-                                    <div class="team-member-social">
-                                        <ul>
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="team-member-content">
-                                    <h4><a href="#">tomas aleman</a></h4>
-                                    <span>Marketing CEO</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="team-member-box text-center mb-50">
-                                <div class="team-member-thumb">
-                                    <img src="img/team/team_member02.jpg" alt="">
-                                    <div class="team-member-social">
-                                        <ul>
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="team-member-content">
-                                    <h4><a href="#">james wiseman</a></h4>
-                                    <span>Marketing CEO</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="team-member-box text-center mb-50">
-                                <div class="team-member-thumb">
-                                    <img src="img/team/team_member03.jpg" alt="">
-                                    <div class="team-member-social">
-                                        <ul>
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="team-member-content">
-                                    <h4><a href="#">emily watson</a></h4>
-                                    <span>Head of Iaea</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="team-member-box text-center mb-50">
-                                <div class="team-member-thumb">
-                                    <img src="img/team/team_member04.jpg" alt="">
-                                    <div class="team-member-social">
-                                        <ul>
-                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="team-member-content">
-                                    <h4><a href="#">alexandra paol</a></h4>
-                                    <span>Web Developer</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </section>
+
+        </div>
+        <div class="section section2">
+
+            <div class="container">
+                <div class="our-team">
+                    <h2 class="our-team">Our Team</h2>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card bg-primary shadow-soft border-light text-center py-4 mb-5">
+                            <div
+                                class="profile-image shadow-inset border border-light bg-primary rounded-circle p-3 mx-auto">
+                                <img src="" class="card-img-top shadow-soft p-2 border border-light rounded-circle" alt="Neil Avatar">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="h5 mb-2">Neil Sims</h3><span
+                                    class="h6 font-weight-normal text-gray mb-3">Co-Founder Themesberg</span>
+                                <ul class="list-unstyled d-flex justify-content-center my-3">
+                                    <li><a href="#" target="_blank" aria-label="facebook social link"
+                                            class="icon icon-xs icon-facebook mr-3"><span
+                                                class="fab fa-facebook-f"></span></a></li>
+                                    <li><a href="#" target="_blank" aria-label="twitter social link"
+                                            class="icon icon-xs icon-twitter mr-3"><span
+                                                class="fab fa-twitter"></span></a></li>
+                                    <li><a href="#" target="_blank" aria-label="slack social link"
+                                            class="icon icon-xs icon-slack mr-3"><span
+                                                class="fab fa-slack-hash"></span></a></li>
+                                    <li><a href="#" target="_blank" aria-label="dribbble social link"
+                                            class="icon icon-xs icon-dribbble mr-3"><span
+                                                class="fab fa-dribbble"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card bg-primary shadow-soft border-light text-center py-4 mb-5">
+                            <div
+                                class="profile-image shadow-inset border border-light bg-primary rounded-circle p-3 mx-auto">
+                                <img src="../../assets/img/team/profile-picture-3.jpg"
+                                    class="card-img-top shadow-soft p-2 border border-light rounded-circle"
+                                    alt="Bonnie Avatar">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="h5 mb-2">Bonnie Green</h3><span
+                                    class="h6 font-weight-normal text-gray mb-3">Marketing Specialist</span>
+                                <ul class="list-unstyled d-flex justify-content-center my-3">
+                                    <li><a href="#" target="_blank" aria-label="facebook social link"
+                                            class="icon icon-xs icon-facebook mr-3"><span
+                                                class="fab fa-facebook-f"></span></a></li>
+                                    <li><a href="#" target="_blank" aria-label="twitter social link"
+                                            class="icon icon-xs icon-twitter mr-3"><span
+                                                class="fab fa-twitter"></span></a></li>
+                                    <li><a href="#" target="_blank" aria-label="slack social link"
+                                            class="icon icon-xs icon-slack mr-3"><span
+                                                class="fab fa-slack-hash"></span></a></li>
+                                    <li><a href="#" target="_blank" aria-label="dribbble social link"
+                                            class="icon icon-xs icon-dribbble mr-3"><span
+                                                class="fab fa-dribbble"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card bg-primary shadow-soft border-light text-center py-4 mb-5">
+                            <div
+                                class="profile-image shadow-inset border border-light bg-primary rounded-circle p-3 mx-auto">
+                                <img src="../../assets/img/team/profile-picture-2.jpg"
+                                    class="card-img-top shadow-soft p-2 border border-light rounded-circle"
+                                    alt="Christopher avatar">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="h5 mb-2">Christopher Wood</h3><span
+                                    class="h6 font-weight-normal text-gray mb-3">Web Designer</span>
+                                <ul class="list-unstyled d-flex justify-content-center my-3">
+                                    <li><a href="#" target="_blank" aria-label="facebook social link"
+                                            class="icon icon-xs icon-facebook mr-3"><span
+                                                class="fab fa-facebook-f"></span></a></li>
+                                    <li><a href="#" target="_blank" aria-label="twitter social link"
+                                            class="icon icon-xs icon-twitter mr-3"><span
+                                                class="fab fa-twitter"></span></a></li>
+                                    <li><a href="#" target="_blank" aria-label="slack social link"
+                                            class="icon icon-xs icon-slack mr-3"><span
+                                                class="fab fa-slack-hash"></span></a></li>
+                                    <li><a href="#" target="_blank" aria-label="dribbble social link"
+                                            class="icon icon-xs icon-dribbble mr-3"><span
+                                                class="fab fa-dribbble"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
+        <div class="section section3">
 
 
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/fullpage.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/fullpage.js"></script>
     <script>
+        $(document).ready(function () {
+            $('#fullpage').fullpage({
+                autoScrolling: true,
+                navigation: true,
+                // navigationTooltips: ['HOME', 'SERVICES', 'STATISTICS', 'NEWS', 'FORUM'],
+                showActiveTooltip: true,
+                showActiveTooltip: true,
+                scrollingSpeed: 1000,
+                slidesNavigation: true,
+                responsiveWidth: 1,
+                responsiveHeight: 0,
+                responsiveSlides: true,
 
-        new fullpage('#fullpage', {
-            //options here
-            autoScrolling: true,
-            scrollHorizontally: true
+                loopBottom: true,
+                loopTop: true,
+                verticalCentered: true,
+            });
+
+            //methods
+            $.fn.fullpage.setAllowScrolling(true);
         });
+
+
 
     </script>
 </body>
