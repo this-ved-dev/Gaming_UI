@@ -145,6 +145,7 @@ input[type="checkbox"] {
     background-attachment: scroll;
 }
 
+
 .page_title {
     /* background: url(/Gaming_UI/img/Untitled\ design.png) no-repeat center center / cover; */
     background-size: 900px;    
@@ -206,24 +207,7 @@ input[type="checkbox"] {
     left: 100px; */
 
 }
-.our-team{
-    color: white;
-}        
-.rounded-circle {
-    border-radius: 50%!important;
-}
-.container{
-    min-height: 80%;
-    /* width: 100%; */
-    border-radius: 20px;
-    background: #001220;
-    box-shadow: inset -7px 7px 12px #00070d,
-        inset 7px -7px 12px #001d33;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
+
 .section2 {
     /* background-image: url(../img/layered-mirror.svg); */
     background-size: cover;
@@ -240,8 +224,17 @@ input[type="checkbox"] {
     justify-content: center;
 }
 
-/* .container {
+.our-team{
+    color: white;
+    margin-bottom: 80px;
+}
+/* 
+.rounded-circle {
+    border-radius: 50%!important;
+} */
+.container{
     min-height: 80%;
+    /* width: 100%; */
     border-radius: 20px;
     background: #001220;
     box-shadow: inset -7px 7px 12px #00070d,
@@ -250,8 +243,21 @@ input[type="checkbox"] {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-} */
-
+}
+.row{
+    display: flex;
+    min-height: 80%;
+    /* width: 100%; */
+    border-radius: 20px;
+    background: #001220;
+    box-shadow: inset -7px 7px 12px #00070d,
+        inset 7px -7px 12px #001d33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}
 .card {
     /* height: 100px; */
     border-radius: 10px;
