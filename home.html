@@ -68,7 +68,7 @@
             </header>
         </div>
         <div class="section section2">
-            <div class="container">
+            <div id="section2-container" class="container">
                 <div class="logo-service">
                     <img height="80px" style="padding: 10px;" src="img/LOGO.png">
                 </div>
@@ -112,7 +112,82 @@
 
         </div>
         <div class="section section3">
+            <div id="section3-container" class="container">
+                <div class="logo-service">
 
+                </div>
+                <div class="row mb-md-5">
+                    <div class="col service-header">
+                        <h2>LATEST BLOG <span style="color: white;">ARTICLES</span></h2>
+                        <h4>We are committed to providing our members with exceptional service and keep them up to speed
+                            with latest developments.</h4>
+                            <br>
+                        <hr id="separator" class="col-4">
+                    </div>
+                </div>
+                <div class="row d-flex align-items-center justify-content-center">
+                    <div class="col-md-6 col-lg-4 mb-1 col-8">
+                        <div class="blog-card card">
+                            <div id="blog-1" class="blog-image p-3">
+                                <img src="./img/blog_1.jpg" class="img-fluid card-img-top rounded">
+                            </div>
+                            <div class="blog-body p-2">
+                                <div class="blog-info-user">
+                                    <span class="username">John Doe</span>
+                                    <span class="date"><i class="far fa-calendar-alt"></i> 6 October, 2021</span>
+                                </div>
+                                <h4 class="card-title mt-3">Shooter Action Video Game</h4>
+                                <p class="p-2">Compete with 100 players on a remote island for winner takes showdown
+                                    known for issue
+                                    where certain skin strategic</p>
+                                <a href="">Read more <i class="far fa-arrow-alt-circle-right"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-1 col-8">
+                        <div class="blog-card card">
+                            <div id="blog-2" class="blog-image p-3">
+                                <img src="./img/blog_2.jpg" class="img-fluid card-img-top rounded">
+                            </div>
+                            <div class="blog-body p-2">
+                                <div class="blog-info-user">
+                                    <span class="username">John Doe</span>
+                                    <span class="date"><i class="far fa-calendar-alt"></i> 6 October, 2021</span>
+                                </div>
+                                <h4 class="card-title mt-3">Multiplayer Environments</h4>
+                                <p class="p-2">Compete with 100 players on a remote island for winner takes showdown
+                                    known for issue
+                                    where certain skin strategic</p>
+                                <a href="">Read more <i class="far fa-arrow-alt-circle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-1 col-8">
+                        <div class="blog-card card" style="max-height: 581px;">
+                            <div id="blog-3" class="blog-image p-3">
+                                <img src="./img/blog_3.jpg" class="img-fluid card-img-top rounded">
+                            </div>
+                            <div class="blog-body p-2">
+                                <div class="blog-info-user">
+                                    <span class="username">John Doe</span>
+                                    <span class="date"><i class="far fa-calendar-alt"></i> 6 October, 2021</span>
+                                </div>
+                                <h4 class="card-title mt-3">Bullet Force Multiplayer</h4>
+                                <p class="p-2">Compete with 100 players on a remote island for winner takes showdown
+                                    known for issue
+                                    where certain skin strategic</p>
+                                <a class="" href="">Read more <i class="far fa-arrow-alt-circle-right"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="section section4">
+            
         </div>
     </div>
 
@@ -137,12 +212,22 @@
                 scrollingSpeed: 1000,
                 slidesNavigation: true,
                 responsiveWidth: 1,
-                responsiveHeight: 0,
+                responsiveHeight: 1,
                 responsiveSlides: true,
 
                 loopBottom: true,
                 loopTop: true,
                 verticalCentered: true,
+
+
+                onLeave: function (origin, destination, direction) { },
+                afterLoad: function (origin, destination, direction) { },
+                afterRender: function () { },
+                afterResize: function (width, height) { },
+                afterReBuild: function () { },
+                afterResponsive: function (isResponsive) { },
+                afterSlideLoad: function (section, origin, destination, direction) { },
+                onSlideLeave: function (section, origin, destination, direction) { }
             });
 
             //methods
