@@ -275,19 +275,21 @@ input[type="checkbox"] {
     /* box-shadow: 6px 6px 12px #b8b9be,-6px -6px 12px #fff!important; */
 /* } */
 
-/* .card .icon {
+.card .icon {
     padding: 10px;
-    margin: 5px auto;
+    
+    /* text-align: center; */
+
+    /* margin: 5px auto; */
     height: 50px;
     width: 50px;
-    font-size: 20px;
-    border-radius: 50%;
-    border: 2px solid #7ed4dd;
+    font-size: 40px;
+    
     color: white;
     background: #001220;
     box-shadow: 6px 6px 18px #000910,
         -6px -6px 18px #001b30;
-} */
+}
 
 .card-title {
     color: white;
