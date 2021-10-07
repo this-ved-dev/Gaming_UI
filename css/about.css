@@ -166,49 +166,22 @@ input[type="checkbox"] {
     line-height: 50px;
     font-weight: 600;
 }
-.gtk h1 {
-    /* padding: 120px 0; */
-    position: relative;
-    line-height: 32px;
-    color: cyan;
-    letter-spacing: 0.64px;    
-    font-weight: 100px; 
-    width: 550px;
-    padding-left: 90px;
-    font-size: 50px;    
-    font-weight: 400;
-    color: white;
-    letter-spacing: 1.2px;
-    text-transform: uppercase;
-    left: 100px;
-      
-}
-.gtk img{
-    text-align: right;
+.ctrl_img {
+    /* text-align: right; */
     /* size: 10px; */
-    height: 350px;  
+    height: 325px;  
     position: relative;    
-    left: 1000px;
-    bottom: 300px;
+    left: 1100px;
+    top: 30px;
       
     /* width: px; */
 }
-.para{
-    margin-top: 20px;
-    line-height: 32px;
-    color: cyan;
-    letter-spacing: 0.64px; 
-    font-size: 20px;
-    bottom: 1000px;
-    width: 750px;
-    padding-left: 190px;
-    font-weight: 600;
-    padding-top: 40px;
-    /* width: 600px;
-    left: 100px; */
-
+.lap_img{
+    height: 325px;
+    position: relative;
+    left: 550px;
+    bottom: 200px;
 }
-
 .section2 {
     /* background-image: url(../img/layered-mirror.svg); */
     background-size: cover;
@@ -224,7 +197,73 @@ input[type="checkbox"] {
     text-align: center;
     justify-content: center;
 }
+.gtk{
+    width: 500px;
+    right: 1000px;
+}
 
+.gtk h1 {
+    /* padding: 120px 0; */
+    /* position: relative; */
+    text-align: left;
+    line-height: 32px;
+    color: cyan;
+    /* letter-spacing: 0.64px;     */
+    font-weight: 100px; 
+    /* width: 550px; */
+    /* padding-left: 90px; */
+    font-size: 50px;    
+    font-weight: 400;
+    color: white;
+    
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    /* left: 100px; */
+      
+}
+.gtk h2{
+    margin-top: 20px;
+    line-height: 32px;
+    color: cyan;
+    letter-spacing: 0.64px; 
+    font-size: 20px;
+    bottom: 1000px;
+    width: 750px;
+    padding-left: 190px;
+    font-weight: 600;
+    padding-top: 40px;
+    /* width: 600px;
+    left: 100px; */
+
+}
+
+.mission h1{
+    color: cyan;
+    font-size: 70px;
+    margin-bottom: 60px;
+}
+.mission h2{
+    color: white;
+    text-align: left;
+    width: 1000px;
+    font-size: 30px;
+    margin-bottom: 150px;
+}
+.section3 {
+    /* background-image: url(../img/layered-mirror.svg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+
+}
+
+.section3 .fp-tableCell {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
 
 /* 
 .rounded-circle {
@@ -271,10 +310,7 @@ input[type="checkbox"] {
     align-items: center;
     
 } */
-.card-deck{
-    /* margin-top: 130px; */
-    /* padding-top: 80px; */
-}
+
 .card {
     width:300px;
     height: 450px;
@@ -287,7 +323,9 @@ input[type="checkbox"] {
     /* margin: 20px auto; */
     /* padding: 20px 0; */
     /* transition: all 1s ease-in-out; */
-
+}
+.card-deck .card{
+    margin-right: 75px;
 }
 /* .photo{ */
     /* box-shadow: 6px 6px 12px #b8b9be,-6px -6px 12px #fff!important; */
@@ -368,4 +406,20 @@ input[type="checkbox"] {
     /* box-shadow: inset 2px 2px 5px #b8b9be,inset -3px -3px 7px #fff!important; */
     /* padding-top: 15px; */
     margin-top: 20px;
+}
+
+.section4 {
+    /* background-image: url(../img/layered-mirror.svg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+
+}
+
+.section4  .fp-tableCell {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
