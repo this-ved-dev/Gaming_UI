@@ -424,3 +424,95 @@ input[type="checkbox"] {
 .blog-body a:hover{
     transform: scale(1.1);
 }
+footer{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+}
+.footer .row{
+    margin:40px 0;
+}
+.counter{
+    padding:60px 0;
+}
+.counter div{
+    margin: 0 40px;
+}
+.counter span{
+    border: 1px solid white;
+}
+.counter div h1{
+    font-family: Futura;
+    color: white;
+    font-size: 55px;
+}
+.counter div h4{
+    color: #00ffff;
+}
+.cta-touch{
+    flex-direction: row;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #00101d, #001322);
+    box-shadow: 5px 5px 11px #00070d,
+    -5px -5px 11px #001d33;
+    
+}
+.cta-touch div h1{
+    color: white;
+}
+.cta-touch div h1 span{
+    color: #e43f5a;
+}
+.cta-touch div p{
+    color: rgb(255, 255, 255, 0.6);
+}
+.cta-touch div{
+    padding:0 50px;
+}
+.touch-image{
+    text-align: center;
+}
+.touch-image img{
+    height:330px;
+}
+.cta-buttons ul{
+    list-style-type: none;
+}
+.cta-buttons ul li{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 20px;
+    background: linear-gradient(145deg, #00101d, #001322);
+    box-shadow: 5px 5px 11px #00070d,
+    -5px -5px 11px #001d33;
+    
+
+}
+.cta-buttons ul li:hover{
+    box-shadow: 0 0 10px #e43f5a;
+}
+.cta-buttons a{
+    color: white;
+    font-size:20px;
+}
+footer hr{
+    border: 1px solid whitesmoke;
+    width: 30vw;
+}
+footer img{
+    height: 20px;
+    width: auto;
+    margin: 10px
+}
+footer p{
+    color: white;
+}
+footer span{
+    color: #e43f5a;
+}
+

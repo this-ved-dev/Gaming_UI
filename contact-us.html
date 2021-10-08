@@ -17,80 +17,85 @@
 
 <body>
 
-    <header>
-        <nav>
-            <div class="logo">Brand</div>
-            <input type="checkbox" id="click">
-            <label for="click" class="menu-btn">
-                <i class="fas fa-bars"></i>
-            </label>
-            <ul>
-                <li><a class="active" href="home.html">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">CONTACT US</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">FORUM</a></li>
-            </ul>
-        </nav>
-        <div class="container">
-            <div class="row d-md-flex">
-                <div class="col-md-6">
-                    <h1>Contact Us</h1>
-                    <p>Let's discuss something awesome together. Tell us a bit about yourself, and we'll get in touch
-                        as soonb as we can.</p>
-                    <div class="contact-info">
-                        <h4>EMAIL:</h4>
-                        <a href="mailto:vedantmisra4444@gmail.com">vedantmisra4444@gmail.com</a>
-                    </div>
-                    <div class="contact-info">
-                        <h4>PHONE:</h4>
-                        <a href="tel:8850576005">(+91)8850576005</a>
-                    </div>
+    <div id="fullpage">
+        <div class="section section1" id="section1">
+            <header>
+                <nav>
+                    <div class="logo"><a href=""><img src="./img/LOGO.png"></a></div>
+                    <input type="checkbox" id="click">
+                    <label for="click" class="menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                    <ul>
+                        <li><a href="{% url 'home' %}">HOME</a></li>
+                        <li><a href="{% url 'about' %}">ABOUT</a></li>
+                        <li><a href="{% url 'contact' %}">CONTACT US</a></li>
+                        <li><a href="{% url 'announcements' %}">ANNOUNCEMENTS</a></li>
+                        <li><a href="{% url 'forum' %}">FORUM</a></li>
+                        <li><a class="select" href="#"><i class="fas fa-power-off"></i></a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row d-md-flex">
+            <div class="col-md-6">
+                <h1>Contact Us</h1>
+                <p>Let's discuss something awesome together. Tell us a bit about yourself, and we'll get in touch
+                    as soonb as we can.</p>
+                <div class="contact-info">
+                    <h4>EMAIL:</h4>
+                    <a href="mailto:vedantmisra4444@gmail.com">vedantmisra4444@gmail.com</a>
                 </div>
-                <div class="col-md-6">
-                    <form name="registration" class="row" action="">
-                        <div class=" form-group col-md-6 mb-2">
-                            <label for="" class="form-label">Name</label>
-                            <input type="text" name="fname" class="form-control" id="">
-                        </div>
-                        <div class=" form-group col-md-6 mb-2">
-                            <label for="" class="form-label">Email</label>
-                            <input type="email" name="email" class="form-control" id="" required>
-                        </div>
-                        <div class="form-group col-md-6 mb-4">
-                            <label for="" class="form-label">Phone No.</label>
-                            <input type="tel" name="phone" class="form-control" id="phone" required>
-                        </div>
-                        <div class="form-group col-md-6 mb-2">
-                            <label for="" class="form-label pl-0">Reason for Connection</label>
-                            <select class="form-control" required>
-                                <option selected value="Feedback">Feedback</option>
-                                <option value="collaboration">Collaboration</option>
-                                <option value="Grievance">Grievance</option>
-                                <option value="Other">Other</option>
-                            </select>
-                        </div>
-                        <div class="form-group col-md-12 mb-4">
-                            <label for="" class="form-label">Your message</label>
-                            <textarea class="form-control" id="" required></textarea>
-                        </div>
-                        <!-- <div class="col-md-4">
+                <div class="contact-info">
+                    <h4>PHONE:</h4>
+                    <a href="tel:8850576005">(+91)8850576005</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <form name="registration" class="row" action="">
+                    <div class=" form-group col-md-6 mb-2">
+                        <label for="" class="form-label">Name</label>
+                        <input type="text" name="fname" class="form-control" id="">
+                    </div>
+                    <div class=" form-group col-md-6 mb-2">
+                        <label for="" class="form-label">Email</label>
+                        <input type="email" name="email" class="form-control" id="" required>
+                    </div>
+                    <div class="form-group col-md-6 mb-4">
+                        <label for="" class="form-label">Phone No.</label>
+                        <input type="tel" name="phone" class="form-control" id="phone" required>
+                    </div>
+                    <div class="form-group col-md-6 mb-2">
+                        <label for="" class="form-label pl-0">Reason for Connection</label>
+                        <select class="form-control" required>
+                            <option selected value="Feedback">Feedback</option>
+                            <option value="collaboration">Collaboration</option>
+                            <option value="Grievance">Grievance</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-12 mb-4">
+                        <label for="" class="form-label">Your message</label>
+                        <textarea class="form-control" id="" required></textarea>
+                    </div>
+                    <!-- <div class="col-md-4">
                             <label for="inputState" class="form-label">State</label>
                             <select id="inputState" class="form-select">
                                 <option selected>Choose...</option>
                                 <option>...</option>
                             </select>
                             </div> -->
-                        <div class="col-md-12 mb-7">
-                            <button type="submit" class="btn submit" onclick="return validateForm()">Submit
-                                Message</button>
-                        </div>
+                    <div class="col-md-12 mb-7">
+                        <button type="submit" class="btn submit" onclick="return validateForm()">Submit
+                            Message</button>
+                    </div>
 
-                    </form>
-                </div>
+                </form>
             </div>
         </div>
-    </header>
+    </div>
 
 
 
