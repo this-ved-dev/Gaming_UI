@@ -148,23 +148,26 @@ input[type="checkbox"] {
 
 .page_title {
     /* background: url(/Gaming_UI/img/Untitled\ design.png) no-repeat center center / cover; */
-    background-size: 900px;    
-    color: rgb(228, 63, 90);
-    letter-spacing: 0.65px;
+    /* background-size: 900px;     */
+    color: rgba(0, 255, 255, 0.8);
+    /* letter-spacing: 0.65px; */
     text-align: left;
     position: relative;
-    min-height: 250px;
-    padding-top: 200px;
+    /* min-height: 250px; */
+    padding-top: 105px;
     line-height: 5px;
     box-sizing: border-box;
     display: block;
-    padding-left: 185px;
+    padding-left: 55px;
     
 }
 .page_title h2{
-    font-size: 100px;
-    line-height: 50px;
+    /* font-size: 100px; */
+    font-size: 6vw;
+    /* line-height: 50px; */
     font-weight: 600;
+    font-family: Futura;
+    position: relative;
 }
 .ctrl_img {
     /* text-align: right; */
@@ -197,31 +200,31 @@ input[type="checkbox"] {
     text-align: center;
     justify-content: center;
 }
-.gtk{
+/* .gtk{
     width: 500px;
     right: 1000px;
-}
+} */
 
-.gtk h1 {
-    /* padding: 120px 0; */
-    /* position: relative; */
+/* .gtk h1 {
+    padding: 120px 0;
+    position: relative;
     text-align: left;
     line-height: 32px;
     color: cyan;
-    /* letter-spacing: 0.64px;     */
+    letter-spacing: 0.64px;    
     font-weight: 100px; 
-    /* width: 550px; */
-    /* padding-left: 90px; */
+    width: 550px;
+    padding-left: 90px;
     font-size: 50px;    
     font-weight: 400;
     color: white;
     
     letter-spacing: 1.2px;
     text-transform: uppercase;
-    /* left: 100px; */
+    left: 100px;
       
-}
-.gtk h2{
+} */
+/* .gtk h2{
     margin-top: 20px;
     line-height: 32px;
     color: cyan;
@@ -232,10 +235,10 @@ input[type="checkbox"] {
     padding-left: 190px;
     font-weight: 600;
     padding-top: 40px;
-    /* width: 600px;
-    left: 100px; */
+    width: 600px;
+    left: 100px;
 
-}
+} */
 
 .mission h1{
     color: cyan;
@@ -314,7 +317,7 @@ input[type="checkbox"] {
 .card {
     width:300px;
     height: 450px;
-    border-radius: 50px;
+    border-radius: 15px;
     background: #fff;
     /* background: linear-gradient(225deg, #001322, #00101d); */
     background:#001220;
@@ -325,7 +328,7 @@ input[type="checkbox"] {
     /* transition: all 1s ease-in-out; */
 }
 .card-deck .card{
-    margin-right: 75px;
+    margin-right: 70px;
 }
 /* .photo{ */
     /* box-shadow: 6px 6px 12px #b8b9be,-6px -6px 12px #fff!important; */
@@ -406,7 +409,25 @@ input[type="checkbox"] {
     /* box-shadow: inset 2px 2px 5px #b8b9be,inset -3px -3px 7px #fff!important; */
     /* padding-top: 15px; */
     margin-top: 20px;
+    
 }
+/* .img-outter{
+    
+    border: 2px solid yellow;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    box-shadow: inset 2px 2px 5px #b8b9be,inset -3px -3px 7px #fff!important;    
+} */
+/* .img-inner{
+    border: 4px solid purple;
+    border-radius: 50%;
+     box-shadow: inset 2px 2px 5px #b8b9be,inset -3px -3px 7px #fff!important;    
+    box-shadow: ;
+    padding-left: 50px;
+    border-radius: ;
+    box-shadow: rgb(184, 185, 190) 2px 2px 5px 0px inset, rgb(255, 255, 255) -3px -3px 7px 0px inset;
+} */
 
 .section4 {
     /* background-image: url(../img/layered-mirror.svg); */
