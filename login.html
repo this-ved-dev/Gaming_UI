@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ciucacristi/elementric/Elementric/css/elementric.css"> -->
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/register.css">
+    <link rel="stylesheet" href="./css/login.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -24,76 +24,37 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid">
-        <div class="row main-row">
-            <div class="col-md-6 left">
-                <h1>Why join <span>ELEMENTRIX</span> ?</h1>
-                <br>
-                <h4><i class="fas fa-check-circle mr-3"></i> Growing community of 200+ gamers</h4>
-                <h4><i class="fas fa-check-circle mr-3"></i> Free and  Accessible forum platform</h4>
-                <h4><i class="fas fa-check-circle mr-3"></i> Exclusive and Latest Announcements</h4>
+    <div class="container">
+        <div class="row main-row d-flex align-items-center justify-content-center">
+            <div class="col-md-6 d-flex left align-items-center justify-content-center">
+                <img src="./img/touch.svg">
+                <p>To keep connected with us please login with your personal info</p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 right">
                 <div class="form-container">
                     <img src="img/LOGO.png">
-                    <h1>Create Account</h1>
-                    <form name="registration" class="row mb-4" action="">
-                        <div class=" form-group d-flex col-md-6 mb-4">
-                            <div class="input-icon">
-                                <i class="fas fa-user"></i>
-                            </div>
-                            <input type="text" name="fname" class="form-control" id="" placeholder="Full Name">
-                        </div>
-                        <div class=" form-group d-flex col-md-6 mb-4">
+                    <h1>Welcome Back</h1>
+                    <form name="registration" class="row d-flex align-items-center justify-content-center mb-4"
+                        action="">
+                        <div class=" form-group d-flex col-md-8 mb-4">
                             <div class="input-icon">
                                 <i class="fas fa-envelope"></i>
                             </div>
                             <input type="email" name="email" class="form-control" id="" required placeholder="Email">
                         </div>
-                        
-                        <div class="form-group d-flex col-md-6 mb-4">
+                        <div class="form-group d-flex col-md-8 mb-4">
                             <div class="input-icon">
                                 <i class="fas fa-unlock"></i>
                             </div>
-                            <input type="tel" name="phone" class="form-control" id="phone" placeholder="Username" required>
+                            <input type="tel" name="phone" class="form-control" id="phone" placeholder="Password"
+                                required>
                         </div>
-                        <div class="form-group d-flex col-md-6 mb-2">
-                            <div class="input-icon">
-                                <i class="fas fa-venus-mars"></i>
-                            </div>
-                            <select class="form-control" required>
-                                <option selected value="Male">Male</option>
-                                <option value="Female">Female</option>
-                                <option value="Other">Other</option>
-                            </select>
-                        </div>
-                        <div class="form-group d-flex col-md-6 mb-4">
-                            <div class="input-icon">
-                                <i class="fas fa-unlock"></i>
-                            </div>
-                            <input type="tel" name="phone" class="form-control" id="phone" placeholder="Password" required>
-                        </div>
-                        <div class="form-group d-flex col-md-6 mb-4">
-                            <div class="input-icon">
-                                <i class="fas fa-unlock"></i>
-                            </div>
-                            <input type="tel" name="phone" class="form-control" id="phone" placeholder="Confirm Password" required>
-                        </div>
-                        
-
-                        <!-- <div class="col-md-4">
-                                        <label for="inputState" class="form-label">State</label>
-                                        <select id="inputState" class="form-select">
-                                            <option selected>Choose...</option>
-                                            <option>...</option>
-                                        </select>
-                                        </div> -->
                         <div class="col-md-12">
-                            <button type="submit" class="btn submit">Register</button>
+                            <button type="submit" class="btn submit">Login</button>
                         </div>
 
                     </form>
-                    <p>Already have an account? <a href="">Login here</a></p>
+                    <p>Don't have an account? <a href="">Register here</a></p>
                 </div>
             </div>
             <!-- <div class="col-md-5 right">
@@ -132,9 +93,6 @@
                 </div>
 
             </div> -->
-
-        </div>
-        <div class="row">
 
         </div>
     </div>
