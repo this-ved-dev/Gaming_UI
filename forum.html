@@ -20,22 +20,225 @@
 
 <body>
     <header>
-        <nav>
-            <div class="logo"><a href=""><img src="./img/LOGO.png"></a></div>
-            <input type="checkbox" id="click">
+        <nav class="row">
+            <div class="col-6 d-flex align-items-center justify-content-start">
+                <div class="logo"><a href=""><img src="./img/LOGO.png"></a></div>
+                <input type="checkbox" id="click">
+                <ul class="pt-3">
+                    <li><a href="#">FORUM</a></li>
+                    <li><a href="#">ANNOUNCEMENTS</a></li>
+
+
+                </ul>
+            </div>
+            <!-- <div class="col-4 d-flex align-items-center justify-content-center">
+                <div class="search-wrapper">
+                    <input class="search-input" type="text" placeholder="Search for a Thread">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="feather feather-search"
+                        viewBox="0 0 24 24">
+                        <defs></defs>
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="M21 21l-4.35-4.35"></path>
+                    </svg>
+                </div>
+            </div> -->
+            <div class="col-6 d-flex align-items-center justify-content-end">
+                <div class="user-glimpse d-flex align-items-center">
+                    <img src="img/orange.png">
+                    <h3 class="pt-2">Wassap,<a href=""> Archfriend</a></h3>
+                </div>
+                <div class="logout">
+                    <a class="power" href="#"><i class="fas fa-power-off"></i></a>
+                </div>
+            </div>
             <label for="click" class="menu-btn">
                 <i class="fas fa-bars"></i>
             </label>
-            <ul>
-                <li><a href="#">FORUM</a></li>
-                <li><a href="#">FORUM</a></li>
-                <li>Wassap, Darsh Parekh</li>
-                <li><a class="select" href="#"><i class="fas fa-power-off"></i></a></li>
 
-            </ul>
         </nav>
     </header>
+    <div class="container-fluid">
+        <div class="row d-flex align-items-center justify-content-center">
+            <div class="col-3">
+                <a href="">
+                    <div class="card">
+                        <img src="./img/OJ In My Gucci Bag [SLOWED LOWERED].jfif" class="card-img"
+                            style="object-position: left;">
+                        <div class="overlay">
+                            <img src="./img/cs-overlay.png">
 
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="">
+                    <div class="card">
+                        <img src="./img/valo.jfif" class="img-fluid" alt="...">
+                        <div class="overlay">
+                            <img src="./img/valo-overlay.png">
+
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-3">
+                <a href="">
+                    <div class="card">
+                        <img src="./img/forza.png" class="card-img" alt="...">
+                        <div class="overlay">
+                            <img src="./img/forza-overlay.png">
+
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+
+        </div>
+        <div class="row d-flex align-items-center section-2 ">
+            <div class="col-md-6 mt-4">
+                <h2><i class="far fa-comments"></i> Threads and Discussions</h2>
+
+            </div>
+            <!-- <div class="col-2 mt-4">
+
+            </div> -->
+            <div class="col-md-5 mt-4 d-flex align-items-center justify-content-end">
+                <div class="search-wrapper">
+                    <input class="search-input" type="text" placeholder="Search for a Thread">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="feather feather-search"
+                        viewBox="0 0 24 24">
+                        <defs></defs>
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="M21 21l-4.35-4.35"></path>
+                    </svg>
+                </div>
+            </div>
+            
+
+        </div>
+        <div class="row">
+            <div class="col-md-2 sorting-buttons">
+                <button type="button" class="btn btn-danger sort">Hello</button>
+                <button type="button" class="btn btn-primary sort">Hello</button>
+                <button type="button" class="btn btn-primary sort">Hello</button>
+            </div>
+        </div>
+        <div class="row forum">
+            <div class="col-md-8 mr-5 forum-main">
+                <div class="row blog-post">
+                    <div class="col-md-1">
+                    
+                    </div>
+                    <div class="col-md-10">
+                        <a href="">
+                            <h2 class="blog-post-title">New feature</h2>
+                        </a>
+                        <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
+                    
+                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean
+                            lacinia bibendum
+                            nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus
+                            ac
+                            cursus commodo,
+                            tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                    
+                    </div>
+                </div>
+                <div class="row blog-post">
+                    <div class="col-md-1">
+                    
+                    </div>
+                    <div class="col-md-10">
+                        <a href="">
+                            <h2 class="blog-post-title">New feature</h2>
+                        </a>
+                        <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
+                    
+                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean
+                            lacinia bibendum
+                            nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus
+                            ac
+                            cursus commodo,
+                            tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                    
+                    </div>
+                </div>
+                <div class="row blog-post">
+                    <div class="col-md-1">
+                    
+                    </div>
+                    <div class="col-md-10">
+                        <a href="">
+                            <h2 class="blog-post-title">New feature</h2>
+                        </a>
+                        <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
+                    
+                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean
+                            lacinia bibendum
+                            nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus
+                            ac
+                            cursus commodo,
+                            tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                    
+                    </div>
+                </div>
+                <div class="row blog-post">
+                    <div class="col-md-1">
+
+                    </div>
+                    <div class="col-md-10">
+                        <a href=""><h2 class="blog-post-title">New feature</h2></a>
+                        <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
+
+                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean
+                            lacinia bibendum
+                            nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus
+                            ac
+                            cursus commodo,
+                            tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+
+                    </div>
+                </div>
+            </div>
+            <aside class="col-md-3 forum-side-bar">
+                <div class="p-3 mb-3 rounded">
+                    <h4 class="font-italic pb-3"><i class="fas fa-fire"></i> Latest Threads</h4>
+                    <ol class="list-styled ml-4 mb-0">
+                        <li><a href="#">March 2014</a></li>
+                        <li><a href="#">February 2014</a></li>
+                        <li><a href="#">January 2014</a></li>
+                        <li><a href="#">December 2013</a></li>
+                        <li><a href="#">November 2013</a></li>
+                        <li><a href="#">October 2013</a></li>
+                        <li><a href="#">September 2013</a></li>
+                        <li><a href="#">August 2013</a></li>
+                        <li><a href="#">July 2013</a></li>
+                        <li><a href="#">June 2013</a></li>
+                        <li><a href="#">May 2013</a></li>
+                        <li><a href="#">April 2013</a></li>
+                    </ol>
+                </div>
+                <div class="p-3 rounded">
+                    <h4 class="font-italic">Elsewhere</h4>
+                    <ol class="list-unstyled d-flex">
+                        <li><a href="#"><i class="fab fa-github"></i></a></li>
+                        <li><a href="#"><i class="fab fa-github"></i></a></li>
+                        <li><a href="#"><i class="fab fa-github"></i></a></li>
+                    </ol>
+                </div>
+
+            </aside>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 
 </body>
 
