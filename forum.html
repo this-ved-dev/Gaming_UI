@@ -58,8 +58,8 @@
 
         </nav>
     </header>
-    <div class="container-fluid">
-        <div class="row d-flex align-items-center justify-content-center">
+    <div class="container-fluid p-2">
+        <div class="row mx-auto mt-5 pb-5 d-flex align-items-center justify-content-center">
             <div class="col-3">
                 <a href="">
                     <div class="card">
@@ -97,11 +97,11 @@
 
 
         </div>
-        <div class="row d-flex justify-content-center align-items-center section-2 ">
-            <div class="col-md-4 mr-auto mt-4">
+        <div class="row main-row mb-3 d-flex justify-content-center align-items-center section-2 ">
+            <div class="col-md-4 mr-auto p-0 ml-0">
                 <h2><i class="far fa-comments"></i> Threads and Discussions</h2>
             </div>
-            <div class="col-md-4 mt-4 d-flex justify-content-end">
+            <div class="col-md-3 mt-4 d-flex justify-content-end">
                 <div class="search-wrapper">
                     <input class="search-input" type="text" placeholder="Search for a Thread">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
@@ -116,159 +116,135 @@
 
 
         </div>
-        <div class="row row-btn">
-            <div class="col-md-2 p-0 sorting-buttons">
-                <button type="button" class="btn btn-danger sort">Hello</button>
-                <button type="button" class="btn btn-primary sort">Hello</button>
-                <button type="button" class="btn btn-primary sort">Hello</button>
+        <div class="row main-row row-btn mb-5">
+            <div class="col-md-5 p-0 sorting-buttons">
+                <button type="button" class="btn btn-danger sort"><i class="fas fa-plus mr-1"></i> Create New
+                    Post</button>
+                <!-- <button type="button" class="ml-3 btn btn-light sort">Hello</button>
+                <button type="button" class="ml-3 btn btn-light sort">Hello</button> -->
             </div>
         </div>
-        <div class="row forum">
+        <div class="row main-row forum">
             <div class="col-md-8 mr-auto forum-main">
                 <div class="row blog-post">
                     <div class="col-md-1 d-flex flex-column align-items-center justify-content-center">
                         <div class="mb-3">
-                            <button type="button" class=""><i class="fas fa-caret-up"></i></button>
+                            <button type="button" onclick="up_press()"><img class="up" width="30px"
+                                    src="./img/upvote_normal.svg"></button>
                         </div>
                         <div>
                             <h3>26</h3>
                         </div>
                         <div class="mt-2">
-                            <button type="button" class=""><i class="fas fa-caret-down"></i></button>
+                            <button type="button" class="down" onclick="up_press()" class=""><img width="30px"
+                                    src="./img/downvote_normal.svg"></button>
                         </div>
                     </div>
                     <div class="col-md-10">
-                        <a href="">
-                            <h2 class="blog-post-title">New feature</h2>
-                        </a>
-                        <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
 
+                        <a class="blog-post-title" href="">
+                            <h2 class="">New feature</h2>
+                        </a>
+                        <span class="badge badge-pill badge-danger mb-2">Valorant</span>
                         <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean
                             lacinia bibendum
                             nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus
                             ac
                             cursus commodo,
                             tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                        <p class="blog-post-meta"><img src="./img/orange.png"><a href="#">Chris</a> | December 14, 2013
+                        </p>
+
 
                     </div>
                 </div>
                 <div class="row blog-post">
                     <div class="col-md-1 d-flex flex-column align-items-center justify-content-center">
                         <div class="mb-3">
-                            <button type="button" class=""><i class="fas fa-caret-up"></i></button>
+                            <button type="button" onclick="up_press()"><img class="up" width="30px"
+                                    src="./img/upvote_normal.svg"></button>
                         </div>
                         <div>
                             <h3>26</h3>
                         </div>
                         <div class="mt-2">
-                            <button type="button" class=""><i class="fas fa-caret-down"></i></button>
+                            <button type="button" class="down" onclick="up_press()" class=""><img width="30px"
+                                    src="./img/downvote_normal.svg"></button>
                         </div>
                     </div>
                     <div class="col-md-10">
+
                         <a href="">
                             <h2 class="blog-post-title">New feature</h2>
                         </a>
-                        <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
-
+                        <span class="badge badge-pill badge-danger mb-2">Valorant</span>
                         <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean
                             lacinia bibendum
                             nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus
                             ac
                             cursus commodo,
                             tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                        <p class="blog-post-meta"><img src="./img/orange.png"><a href="#">Chris</a> | December 14, 2013
+                        </p>
 
-                    </div>
-                </div>
-                <div class="row blog-post">
-                    <div class="col-md-1 d-flex flex-column align-items-center justify-content-center">
-                        <div class="mb-3">
-                            <button type="button" class=""><i class="fas fa-caret-up"></i></button>
-                        </div>
-                        <div>
-                            <h3>26</h3>
-                        </div>
-                        <div class="mt-2">
-                            <button type="button" class=""><i class="fas fa-caret-down"></i></button>
-                        </div>
-                    </div>
-                    <div class="col-md-10">
-                        <a href="">
-                            <h2 class="blog-post-title">New feature</h2>
-                        </a>
-                        <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
-
-                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean
-                            lacinia bibendum
-                            nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus
-                            ac
-                            cursus commodo,
-                            tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-
-                    </div>
-                </div>
-                <div class="row blog-post">
-                    <div class="col-md-1 d-flex flex-column align-items-center justify-content-center">
-                        <div class="mb-3">
-                            <button type="button" class=""><i class="fas fa-caret-up"></i></button>
-                        </div>
-                        <div>
-                            <h3>26</h3>
-                        </div>
-                        <div class="mt-2">
-                            <button type="button" class=""><i class="fas fa-caret-down"></i></button>
-                        </div>
-                    </div>
-                    <div class="col-md-10">
-                        <a href="">
-                            <h2 class="blog-post-title">New feature</h2>
-                        </a>
-                        <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
-
-                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean
-                            lacinia bibendum
-                            nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus
-                            ac
-                            cursus commodo,
-                            tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 
                     </div>
                 </div>
             </div>
             <aside class="col-md-3 forum-side-bar">
-                <div class="p-3 mb-3 rounded">
-                    <h4 class="font-italic pb-3"><i class="fas fa-fire"></i> Latest Threads</h4>
-                    <ol class="list-styled ml-4 mb-0">
+                <div class="p-3 rounded mb-4">
+                    <h4 class="font-italic pb-3"><i class="fas fa-fire" style="color: #e62b4a"></i> Latest Threads</h4>
+                    <ul class="list-styled ml-2">
                         <li><a href="#">March 2014</a></li>
                         <li><a href="#">February 2014</a></li>
                         <li><a href="#">January 2014</a></li>
                         <li><a href="#">December 2013</a></li>
-                        <li><a href="#">November 2013</a></li>
-                        <li><a href="#">October 2013</a></li>
-                        <li><a href="#">September 2013</a></li>
-                        <li><a href="#">August 2013</a></li>
-                        <li><a href="#">July 2013</a></li>
-                        <li><a href="#">June 2013</a></li>
-                        <li><a href="#">May 2013</a></li>
-                        <li><a href="#">April 2013</a></li>
-                    </ol>
+                    </ul>
                 </div>
-                <div class="p-3 rounded">
-                    <h4 class="font-italic">Elsewhere</h4>
-                    <ol class="list-unstyled d-flex">
-                        <li><a href="#"><i class="fab fa-github"></i></a></li>
-                        <li><a href="#"><i class="fab fa-github"></i></a></li>
-                        <li><a href="#"><i class="fab fa-github"></i></a></li>
-                    </ol>
+                <div class="p-3 mb-5 rounded">
+                    <h4 class="font-italic pb-3"><i class="fas fa-link" style="color: #e62b4a"></i> Blog links </h4>
+                    <ul class="list-styled ml-2">
+                        <li><a href="#">March 2014</a></li>
+                        <li><a href="#">February 2014</a></li>
+                        <li><a href="#">January 2014</a></li>
+                        <li><a href="#">December 2013</a></li>
+                    </ul>
                 </div>
 
             </aside>
 
+        </div>
+        <div class="row main-row">
+            <div class="col-md-8 d-flex justify-content-center align-items-center">
+                <div class="pagination">
+                    <div class="pagination-block"><a href="">1</a></div>
+                    <div class="pagination-block"><a href="">2</a></div>
+                    <div class="pagination-block"><a href="">3</a></div>
+                    <div class="pagination-block"><a href="">4</a></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row footer-row">
+            <footer class="col-md-12 d-flex flex-column justify-content-center align-items-center">
+                <hr class="footer-line">
+                <img src="img/LOGO.png">
+                <p>Copyright © <span>Elementrix</span> 2021. Designed by <span class="creator">Vedant Misra</span>, <span class="creator">Darsh Parekh</span>, <span class="creator">Jash Shah</span></p>
+            </footer>
         </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <script>
+        function up_press() {
+            console.log("hello")
+            var x = document.getElementsByClassName("up")[0]
+            console.log(x)
+            x.src = "./img/upvote_pressed.svg"
+        }
+    </script>
 
 </body>
 
